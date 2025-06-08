@@ -2,12 +2,16 @@
 
 This project contains a Bash script (`container.sh`) designed to streamline the process of building, running, stopping, and managing Docker containers for development or deployment environments.
 
+--- 
+
 ## Features
 
 - Build a Docker image from a Dockerfile
 - Run a container from the image
 - Stop and remove the container
 - Display logs and container status
+
+---
 
 ## Usage
 
@@ -23,6 +27,8 @@ Each command can be executed by passing it as an argument to the script:
 ```bash
 ./container.sh conf-file.txt /command1/command2
 ```
+
+---
 
 ## License
 
